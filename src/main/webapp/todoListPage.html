@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>할 일 목록</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .task-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .task {
+            background-color: #e0e0e0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">할 일 목록</div>
+        <div class="task-list">
+            <div class="task">쇼핑하기</div>
+            <div class="task">책 읽기</div>
+            <div class="task">운동하기</div>
+            <div class="task">코딩 공부하기</div>
+        </div>
+    </div>
+</body>
+</html>
